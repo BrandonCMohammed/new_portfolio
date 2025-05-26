@@ -1,11 +1,10 @@
-import Image from "next/image";
+"use client"
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
+import HeroSection from './Hero/page';
 
 export default function Home() {
   return (
-    <Container>
-      
-    </Container>
+    <HeroSection/>
   );
 }
