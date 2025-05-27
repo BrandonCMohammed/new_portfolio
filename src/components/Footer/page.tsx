@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography';
 
 export default function Footer() {
   return (
-    <Container maxWidth="xl">
+    <Container maxWidth="xl" sx={{height:"160px"}}>
       <Typography >FOOTER</Typography>
     </Container>
   );

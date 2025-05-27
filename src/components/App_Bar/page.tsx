@@ -5,23 +5,13 @@ import { Box, Container, ListItem, Stack, Typography } from "@mui/material";
 export default function AppBar() {
   return (
     <Container>
-      <Stack 
-      direction="row" 
-      justifyContent="center" 
-      spacing={5}
+      <Stack
       sx={{py:"16px"}}
       >
-        <Box>
-          <Typography>ITEM 1</Typography>
-        </Box>
-        <Box>
-          <Typography>ITEM 2</Typography>
-        </Box>
-        <Box>
-          <Typography>ITEM 3</Typography>
-        </Box>
-        <Box>
-          <Typography>ITEM 4</Typography>
+        <Box sx={{display:"flex", justifyContent:"center", gap:"16px"}}>
+          <Typography>HOME</Typography>
+          <Typography>ABOUT</Typography>
+          <Typography>WORK</Typography>
         </Box>
       </Stack>
     </Container>
